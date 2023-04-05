@@ -6,7 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <nav>
       <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/aufgabe1">Aufgabe 1</RouterLink>
+      <RouterLink to="/aufgabe_1">Aufgabe 1</RouterLink>
+      <RouterLink to="/aufgabe_2">Aufgabe 2</RouterLink>
+
     </nav>
   </header>
 
@@ -18,7 +20,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
-  background-color: aqua;
+  background-color: violet;
 }
 
 nav a {
@@ -29,6 +31,6 @@ nav a {
   font-size: 1.5rem;
 }
 nav a:hover {
-  color: green;
+  color: 	#9F2B68;
 }
 </style>
