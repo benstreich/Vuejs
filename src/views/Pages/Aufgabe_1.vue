@@ -1,5 +1,5 @@
 <template>
-  <Button :class="Background" :id="Text" >{{ Text }} auf {{ Background }}</Button>
+  <Button :class="Background" :id="Text" style="width: 200px; height: 50px; margin-top: 50px;">{{ Text }} auf {{ Background }}</Button>
 
   <h1>Hintergrund</h1>
   <p @click="Background = 'c1'">Grün</p>
@@ -8,11 +8,11 @@
   <p @click="Background = 'c4'">Rot</p>
   <p @click="Background = 'c5'">Schwarz</p>
   <p @click="Background = 'c6'">Weiss</p>
-
+ 
   <h1>Text</h1>
     <p @click="Text = 'c1'">Grün</p>
   <p @click="Text = 'c2'">Gelb</p>
-  <p @click="Text = 'c3'">Blau</p>
+  <p @click="Text = 'c3'">B lau</p>
   <p @click="Text = 'c4'">Rot</p>
   <p @click="Text = 'c5'">Schwarz</p>
   <p @click="Text = 'c6'">Weiss</p>
